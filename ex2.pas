@@ -1,3 +1,16 @@
+program BaiTap02;
+uses crt;
+
+{ ============================================================================ }
+{                                    ĐỀ BÀI                                    }
+{ ---------------------------------------------------------------------------- }
+{ Đề bài:Bài 2 : Xử lý lỗi đường dẫn tệp trong dự án nhóm                      }
+{                                                                              }
+{ Tên sinh viên: Lê Hồ Thanh Thảo                                              }
+{ Lớp: KS26 HCM CNTT2                                                          }
+{ ============================================================================ }
+  
+
 # N26DTCN030-IT108-CNTT2 
 
 ## BÀI 2: XỬ LÍ LỖI TRONG ĐƯỜNG DẪN TỆP CỦA DỰ ÁN NHÓM
@@ -10,8 +23,6 @@
 Session-02/assets/logo.png/main.exe
 - Cách viết lại đường dẫn trong Pascal:
 Sử dụng chuỗi đường dẫn tương đối
-
-Delphi
 program Fixpath;
 var
   imagePath: string;
@@ -23,4 +34,4 @@ begin
   // imagePath := './assets/logo.png';
 end.
 
-
+  end;
